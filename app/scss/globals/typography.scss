@@ -5,6 +5,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h1{
+    font-size: 1.60em;
+}
+
 a, a:visited, a:active {
     text-decoration: none;
 }
@@ -12,4 +16,5 @@ a, a:visited, a:active {
 p {
     text-align: center;
     color: $grayishBlue;
+    font-size: 0.9em;
 }

@@ -9,7 +9,6 @@
 	align-items: center;
 
 	@include breakpoint(medium) {
-		padding: 0 0;
 		// align-self: center;
 	}
 }

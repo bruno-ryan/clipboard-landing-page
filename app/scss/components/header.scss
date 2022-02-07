@@ -1,0 +1,21 @@
+@use '../util' as *;
+
+.header {
+    background: url('../../../images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20.9375rem;
+    display: flex;
+    justify-content: center;
+
+    @include breakpoint (medium) {
+        background: url('../../../images/bg-header-desktop.png');
+        height: 340px;
+        background-position: center;
+        
+    }
+
+    &-logo {
+        margin-top: 125px;
+    }
+}

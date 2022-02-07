@@ -1,0 +1,2 @@
+html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{font-family:var(--mainFont);margin:0;padding:0}h1,h2,h3{margin-top:0}a,a:active,a:visited{text-decoration:none}.header{background:url(../../../images/bg-header-mobile.png);background-repeat:no-repeat;background-size:cover;display:flex;height:20.9375rem;justify-content:center}@media (min-width:40em){.header{background:url(../../../images/bg-header-desktop.png);background-position:50%;height:340px}}.header-logo{margin-top:125px}
+/*# sourceMappingURL=style.css.map */

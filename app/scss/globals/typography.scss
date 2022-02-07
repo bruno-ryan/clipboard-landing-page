@@ -1,7 +1,15 @@
+@use '../util' as *;
+
 h1, h2, h3 {
     margin-top: 0;
+    text-align: center;
 }
 
 a, a:visited, a:active {
     text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: $grayishBlue;
 }

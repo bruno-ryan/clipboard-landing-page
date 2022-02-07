@@ -1,0 +1,39 @@
+@use '../util' as *;
+
+.buttom {
+    font-size: 1rem;
+    color: #ffffff;
+    width: 309px;
+    justify-self: center;
+    padding: 20px 75px;
+    margin-bottom: 25px;
+    border-radius: 40px;
+    text-align: center;
+
+    @include breakpoint(medium) {
+        padding: 17px 35px;
+        width: 225px;
+		
+	}
+    
+    &-cyan {
+        background-color: $strongCyan;
+        box-shadow: 0px 5px 10px rgba($strongCyan, 0.4);
+        transition: 250ms ease-in-out;
+        
+        &:hover {
+            background-color: rgba($strongCyan, 0.8);
+        }
+        
+    }
+    
+    &-blue {
+        background-color: $lightBlue;
+        box-shadow: 0px 5px 10px rgba($lightBlue, 0.4);
+        transition: 250ms ease-in-out;
+        
+        &:hover {
+            background-color: rgba($lightBlue, 0.8);
+        }
+    }
+}

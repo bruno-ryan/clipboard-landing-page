@@ -1,8 +1,8 @@
 // 640px, 1024px, 1400px
 $breakpoints: (
-    'medium': '40em',
-    'large': '64em',
-    'xlarge': '87.5em',
+    'medium': '40rem',
+    'large': '64rem',
+    'xlarge': '87.5rem',
 );
 
 @mixin breakpoint($size) {

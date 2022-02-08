@@ -1,5 +1,11 @@
 @use '../util' as *;
 
+
+section {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -8,7 +14,7 @@
 	max-width: 690px;
 	align-items: center;
 
-	@include breakpoint(medium) {
-		// align-self: center;
+	@include breakpoint(large) {
+		padding: 0 0;
 	}
 }

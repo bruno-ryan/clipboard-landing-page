@@ -3,10 +3,18 @@
 h1, h2, h3 {
     margin-top: 0;
     text-align: center;
+    color: $darkGrayishBlue;
 }
 
-h1{
-    font-size: 1.60em;
+.h1 {
+    &--large {
+        font-size: 1.60em;
+    }
+
+    &--small {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
 }
 
 a, a:visited, a:active {
@@ -16,5 +24,18 @@ a, a:visited, a:active {
 p {
     text-align: center;
     color: $grayishBlue;
-    font-size: 0.9em;
+}
+
+.p {
+    &--large {
+        font-size: 0.85em;
+    }
+
+    &--small {
+        font-size: 1rem;
+    }
+}
+
+.justify {
+    text-align: justify;
 }

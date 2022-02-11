@@ -1,0 +1,50 @@
+@use '../util/' as *;
+
+.workflow {
+    .container {
+        margin-bottom: 80px;
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+    &__features {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+        row-gap: 50px;
+        padding: 0 30px;
+        max-width: 1100px;
+        margin: 0 auto 130px;
+
+        @include breakpoint (medium) {
+        grid-template-columns: repeat(3, 1fr);
+            margin-bottom: 150px;
+        }
+        .feature {
+            max-width: 350px;
+            margin: 0 auto;
+
+            &__image {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 40px;
+                img {
+                    height: 35px;
+                }
+            }
+
+            &__title {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: $darkGrayishBlue;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            
+            &__text {
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+    }
+}

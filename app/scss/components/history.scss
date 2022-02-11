@@ -1,7 +1,7 @@
 @use '../util' as *;
 
 .history {
-    
+    margin-bottom: 130px;
     h1 {
         margin-bottom: 22px;
     }
@@ -13,7 +13,6 @@
     &-buttons {
     display: flex;
     flex-direction: column;
-    margin-bottom: 130px;
     
         @include breakpoint(medium){
             display: flex;

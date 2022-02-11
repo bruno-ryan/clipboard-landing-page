@@ -24,6 +24,7 @@ a, a:visited, a:active {
 p {
     text-align: center;
     color: $grayishBlue;
+    line-height: 1.5;
 }
 
 .p {
@@ -36,6 +37,23 @@ p {
     }
 }
 
+.center {
+    text-align: center;
+}
+
 .justify {
     text-align: justify;
+}
+
+.box--align {
+    p {
+        @include breakpoint (medium) {
+            text-align: justify;
+        }
+    }
+    h1 {
+        @include breakpoint (medium) {
+            text-align: justify;
+        }
+    }
 }

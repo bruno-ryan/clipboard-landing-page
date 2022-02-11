@@ -1,19 +1,20 @@
-@use '../util' as *;
+@use '../util/' as *;
 
-.history {
-    margin-bottom: 130px;
+.download {
+    margin-bottom: 150px;
+
     h1 {
         margin-bottom: 22px;
     }
-    
+
     p {
         margin-bottom: 50px;
     }
 
     &__buttons {
-    display: flex;
-    flex-direction: column;
-    
+        display: flex;
+        flex-direction: column;
+        
         @include breakpoint(medium){
             display: flex;
             flex-direction: row;
@@ -22,5 +23,4 @@
         
         }
     }
-
 }

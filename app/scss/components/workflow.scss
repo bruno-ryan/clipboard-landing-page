@@ -20,6 +20,11 @@
         grid-template-columns: repeat(3, 1fr);
             margin-bottom: 150px;
         }
+
+        @include breakpoint (large) {
+            padding: 0 0;
+        }
+
         .feature {
             max-width: 350px;
             margin: 0 auto;
